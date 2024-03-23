@@ -70,8 +70,10 @@ function App() {
           />
         </Form>
       </div>
+
       <div className="filters">
         <div onClick={() => handleSelection("Mountains")}>Mountains</div>
+
         <div onClick={() => handleSelection("Beaches")}>Beaches</div>
         <div onClick={() => handleSelection("Birds")}>Birds</div>
         <div onClick={() => handleSelection("Food")}>Food</div>
